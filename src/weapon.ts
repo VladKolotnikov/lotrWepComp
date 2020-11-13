@@ -1,4 +1,8 @@
+import {normalizeSync} from 'normalize-diacritics';
+
 export class WeaponDTO {
+  id_normalized: string;
+
   constructor(
     public readonly dmg: number, 
     public readonly speed: number, 
@@ -6,5 +10,6 @@ export class WeaponDTO {
     public readonly kb: boolean, 
     public readonly price: string, 
     public readonly id: string) {
+      this.id_normalized = normalizeSync(id);
   }
 }
