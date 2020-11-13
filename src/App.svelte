@@ -1,10 +1,18 @@
-<script>
-	export let name;
+<script lang="ts">
+	export let weapon1_id: string;
+
+	import {weapons} from './weapons';
+
+	$: weapons1 = weapons.
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>Hello a friend High Elf!</h1>
+
+	<input bind:value={weapon1_id}>
+
+
+
 </main>
 
 <style>
