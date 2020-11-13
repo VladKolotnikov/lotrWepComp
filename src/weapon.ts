@@ -1,4 +1,4 @@
-export class Weapon {
+export class WeaponDTO {
   constructor(
     public readonly dmg: number, 
     public readonly speed: number, 

@@ -1,7 +1,7 @@
 <script lang="ts">
-    import {Weapon} from './weapon';
+    import {WeaponDTO} from './weapon';
 
-    export let weapon: Weapon;
+    export let weapon: WeaponDTO;
 </script>
 
 <h1>{weapon.id}</h1>
