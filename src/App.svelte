@@ -37,7 +37,7 @@
 				<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
 					<div class="flex flex-row bg-gray-200">
 						<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">Choose the first weapon here. Start typing.</div>
-						<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2"><input bind:value={weapon1_id} /></div>
+						<div class="text-gray-700 text-center bg-green-500 px-4 py-2 m-2"><input bind:value={weapon1_id} /></div>
 					</div>
 				</div>
 				<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
@@ -55,7 +55,7 @@
 				<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
 					<div class="flex flex-row bg-gray-200">
 						<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">Choose the second weapon here. Start typing.</div>
-						<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2"><input bind:value={weapon2_id} /></div>
+						<div class="text-gray-700 text-center bg-green-500 px-4 py-2 m-2"><input bind:value={weapon2_id} /></div>
 					</div>
 				</div>
 				<div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
